@@ -1,0 +1,47 @@
+/**
+* @Author: Julien SOBRITZ
+* @Date:   2016-11-28T10:32:14+01:00
+* @Email:  julien.s@codeur.online
+* @Filename: create.css
+* @Last modified by:   Julien SOBRITZ
+* @Last modified time: 2016-11-28T15:01:14+01:00
+*/
+
+body {
+  padding-left: 500px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+div {
+  padding-top: 75px;
+  padding-left: 50px;
+}
+
+li {
+  list-style: none;
+}
+
+.check {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+input + img {
+  height: 30px;
+}
+
+input {
+  width: 50px;
+}
+
+input :active {
+  width: 200px;
+}
+
+input ::before {
+  width: 300px;
+}
